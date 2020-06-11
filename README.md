@@ -6,7 +6,7 @@ This project examines regional employment centers in San Diego and Riverside met
 
 1. Clone this repository
 2. Run `conda env create -f environment.yml` to build the conda environment with necessary dependencies
-   - run `conda activate pbpl204` each time you work on the project
+   - Run `conda activate pbpl204` each time you work on the project
 
 ## Running the Analysis:
 
@@ -27,9 +27,10 @@ After running all the notebooks, we're left with a set of polygons that define r
 ### San Diego
 
 We find roughly 8 employment centers in San Diego. It should be noted that our methods actually identify 13 separate employment centers in San Diego, but we can assume that some of them are apart of the same center due to their proximity. The centers can be identified as:
+
 1. Downtown San Diego - including Hillcrest, Mission Hills and Mission Valley
 2. Kearny Mesa
-3. UCSD and sorrounding hospitals/retail
+3. UCSD and surrounding hospitals/retail
 4. The core of Chula Vista
 5. Much of the City of La Mesa
 6. Much of the City of El Cajon
@@ -43,6 +44,7 @@ According to `sd_center['total_employees'].sum()` these centers contain a total 
 ### Riverside
 
 We find roughly 7 employment centers in Riverside. It should be noted that our methods identify 9 separate employment centers in Riverside, but we can assume that some of them are apart of the same center due to their proximity.
+
 1. Downtown San Bernadino
 2. Downtown Riverside
 3. A portion of western Riverside
@@ -57,5 +59,5 @@ According to `rv_center['total_employees'].sum()`  these centers contain a total
 
 ## Next Steps
 
-1. Analyze employment centers over time in context with transportation improvements and zoning changes in the region.
+1. Analyze change in employment centers over time in context with transportation improvements and zoning changes in the region.
 2. Analyze change in employment share within these centers over time.
