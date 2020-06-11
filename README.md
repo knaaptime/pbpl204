@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/knaaptime/pbpl204/master)
+
 # Employment Centers in Southern California
 
 This project examines regional employment centers in San Diego and Riverside metropolitan areas. It begins by identifying a set of centers in each metro, then we use segregation/spatial concentration statistics to characterize each center.
